@@ -4,7 +4,7 @@ Chernventory is an inventory system mainly for use by the SAS MATE Robotics team
 
 ## Features
 
-Chernventory provides an interface where anyone logged in can requests for parts then admins can approve requests. The software will keep track of which team currently posseses which part and the entire history of each part.
+Chernventory provides an interface where anyone logged in can request for parts then admins can approve requests. The software will keep track of which team currently posseses which part and the entire history of each part.
 
 ## Contributing
 
