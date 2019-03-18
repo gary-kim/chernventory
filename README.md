@@ -9,7 +9,7 @@ Chernventory provides an interface where anyone logged in can request for parts 
 ## Installing
 
 Chernventory is still in development and is not yet usable.
-
+### Download Chernventory
 ```
 # Clone the repository
 git clone https://github.com/gary-kim/chernventory.git chernventory
@@ -18,12 +18,29 @@ cd chernventory
 # Install dependencies
 npm install
 
+# Edit config file
+vim config/config.js
+```
+
+### Build for deployment
+```
+# Compile and run chernventory (This will reload code when edits are made)
+npm run dev
+```
+
+### Build to test
+```
+# Compile and run chernventory
+npm start
+```
+
+### Build for deployment
+```
 # Build chernventory
-npm build
+npm run build
 
 # Run chernventory
-npm start
-
+node ./build/main.js
 ```
 
 ## Contributing

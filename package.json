@@ -4,7 +4,7 @@
   "description": "Chernventory is an inventory system mainly for use by the SAS MATE Robotics team but can be adapted to be used in other senarios.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "backpack dev",
     "start": "backpack",
     "build": "backpack build"
   },
