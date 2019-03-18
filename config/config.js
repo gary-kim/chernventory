@@ -9,6 +9,7 @@ config.org = {
 config.debug = true;
 config.db = {
     "name": "dbname",
+    "location": "database.sqlite",
     "logging": false
 }
 
