@@ -108,10 +108,26 @@ Request.belongsTo(User, {as: "Author"});
 Request.hasOne(Location);
 History.hasOne(Request);
 
+const Client = sequelize.define('Client', {
+    id: {
+        type: Sequelize.STRING,
+        unique: true,
+        primaryKey: true
+    },
+    clientkey: {
+        type: Sequelize.STRING
+    },
+    lastseen: {
+        type: Sequelize.DATE
+    }
+});
+Client.belongsTo(User, {as: "Clients"});
+
 export {
     Item,
     History,
     Location,
     User,
-    Request
+    Request,
+    Client
 }
