@@ -17,4 +17,18 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import {User} from '../db';
+import express from 'express';
+import {Item} from '../db';
+import apiRouter from './api';
+import renderOptions from '../res/stdrenderoptions'
+
+const router = express.Router();
+
+
+router.use('/api', apiRouter);
+
+router.get('/', (req, res) => {
+    res.render('landing', renderOptions({page: 'Landing Page'}));
+});
+
+export default router;

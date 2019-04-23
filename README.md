@@ -9,6 +9,7 @@ Chernventory provides an interface where anyone logged in can request for parts 
 ## Installing
 
 Chernventory is still in development and is not yet usable.
+
 ### Download Chernventory
 ```
 # Clone the repository
@@ -22,7 +23,7 @@ npm install
 vim config/config.js
 ```
 
-### Build for deployment
+### Build for development
 ```
 # Compile and run chernventory (This will reload code when edits are made)
 npm run dev
@@ -51,4 +52,4 @@ See the `CONTRIBUTING.md` file.
 
 Copyright &copy; 2019 Gary Kim <<gary@ydgkim.com>>
 
-The source code is licensed under AGPL-3.0
+The source code is licensed under AGPL-3.0-only

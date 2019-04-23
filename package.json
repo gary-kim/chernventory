@@ -4,6 +4,9 @@
   "description": "Chernventory is an inventory system mainly for use by the SAS MATE Robotics team but can be adapted to be used in other senarios.",
   "main": "src/index.js",
   "scripts": {
+    "predev": "npx lessc --math=parens-division ressrc/less/app.less webres/app.css",
+    "prestart": "npx lessc --math=parens-division ressrc/less/app.less webres/app.css",
+    "prebuild": "npx lessc --math=parens-division ressrc/lsss/app.less webres/app.css",
     "dev": "backpack dev",
     "start": "backpack",
     "build": "backpack build"
@@ -23,6 +26,7 @@
     "bcrypt": "^3.0.4",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "less": "^3.9.0",
     "sequelize": "^5.1.0",
     "sqlite3": "^4.0.6"
   }

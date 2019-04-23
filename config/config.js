@@ -3,7 +3,7 @@ var config = {}
 config.configversion = "0.0.1";
 config.teststring = "testing testing 123";
 config.domain = "chernventory.my.domain";
-config.port = 80;
+config.port = 1313;
 config.org = {
     "name": "organization name",
     "website": "https://my.domain/"

@@ -17,4 +17,17 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import {User} from '../db';
+import config from '../../config/config'
+
+
+function renderOptions(input) {
+    let tr = {
+        orgname: config.org.name
+    };
+    Object.entries(input).forEach((curr) => {
+        tr[curr[0]] = curr[1];
+    });
+    return tr;
+}
+
+export default renderOptions;
